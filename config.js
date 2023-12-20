@@ -15,8 +15,8 @@ global.devs = '2347039570336';
 global.website = 'https://github.com/Lavosti001/IZUKU-Md' //wa.me/+91000000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://raw.githubusercontent.com/SecktorBot/Brandimages/main/logos/SocialLogo%201.png'
 module.exports = {
-  botname:   process.env.BOT_NAME === undefined ? '༺ 𒆜𝑙𝑎 𝑣𝑜𝑠𝑡𝑖_𝑏𝑜𝑡𒆜 ༻' : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? '༺ 𒆜𝑙𝑎 𝑣𝑜𝑠𝑡𝑖_𝑏𝑜𝑡𒆜 ༻ : process.env.OWNER_NAME,
+  botname:   process.env.BOT_NAME === undefined ? '𝐋𝐀 𝐕𝐎𝐒𝐓𝐈' : process.env.BOT_NAME,
+  ownername: process.env.OWNER_NAME === undefined ? '𝐋𝐀 𝐕𝐎𝐒𝐓𝐈 : process.env.OWNER_NAME,
   sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,
   author:  process.env.PACK_INFO.split(";")[0] === undefined ? 'excel' : process.env.PACK_INFO.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? true : process.env.AUTO_READ_STATUS,
